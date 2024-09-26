@@ -49,7 +49,7 @@ export default function Page() {
 
           <Separator />
 
-          <div className="grid grid-cols-1 sm:grid-cols-2">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="flex flex-col gap-2">
               <p className="font-medium">Original Text</p>
               <span className={`break-words ${!text && "text-muted-foreground"}`}>
